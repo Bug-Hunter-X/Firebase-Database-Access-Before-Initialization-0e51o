@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access a database reference before it's fully initialized.  This often happens when you call database methods within the component's constructor or before the component's lifecycle methods like `ngOnInit` have completed. This asynchronous nature of Firebase interactions often leads to unexpected behavior.
